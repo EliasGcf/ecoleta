@@ -41,7 +41,7 @@
 
 <img alt="Layout" src=".github/mockup.png">
 
-## ♻️ About the project
+## :recycle: About the project
 
 Soon
 
