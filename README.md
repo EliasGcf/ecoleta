@@ -54,7 +54,7 @@ With the idea to help world ecosystem, this software provide a flow to create re
 
 ## 🚀 Technologies
 
-Technologies that I used to develop this api
+Technologies that I used to develop this application
 
 - [Node.js](https://nodejs.org/en/)
 - [ReactJS](https://reactjs.org/)
