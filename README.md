@@ -9,21 +9,10 @@
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/EliasGcf/ecoleta?color=%2334CB79">
-
-  <a href="https://www.linkedin.com/in/eliasgcf/">
-    <img alt="Made by" src="https://img.shields.io/badge/made%20by-elias%20gabriel-%2334CB79">
-  </a>
-  
+  <a href="https://www.linkedin.com/in/eliasgcf/"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Elias%20Gabriel-%2334CB79"></a>
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/EliasGcf/ecoleta?color=%2334CB79">
-  
-  <a href="https://github.com/EliasGcf/ecoleta/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliasGcf/ecoleta?color=%2334CB79">
-  </a>
-  
-  <a href="https://github.com/EliasGcf/ecoleta/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/EliasGcf/ecoleta?color=%2334CB79">
-  </a>
-  
+  <a href="https://github.com/EliasGcf/ecoleta/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/EliasGcf/ecoleta?color=%2334CB79"></a>
+  <a href="https://github.com/EliasGcf/ecoleta/issues"><img alt="Repository issues" src="https://img.shields.io/github/issues/EliasGcf/ecoleta?color=%2334CB79"></a>
   <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/ecoleta?color=%2334CB79">
 </p>
 
