@@ -66,7 +66,7 @@ Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomn
 ### Requirements
 
 - [Node.js](https://nodejs.org/en/)
-- [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
+- [Yarn](https://classic.yarnpkg.com/)
 - [Expo](https://expo.io/)
 
 **Clone the project and access the folder**
@@ -75,25 +75,28 @@ Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomn
 $ git clone https://github.com/EliasGcf/ecoleta.git && cd ecoleta
 ```
 
+**Install dependencies**
+
+```bash
+$ yarn
+```
+
 **Follow the steps below**
 
 ### Backend
 
 ```bash
-# Starting from the project root folder, go to server folder
-$ cd server
-
 # Install the dependencies
 $ yarn
 
 # Use the script to run the migrations
-$ yarn knex:migrate
+$ yarn server knex:migrate
 
 # Use the script to run the seeds
-$ yarn knex:seed
+$ yarn server knex:seed
 
 # To finish, run the api service
-$ yarn dev
+$ yarn server dev
 
 # Well done, project is started!
 ```
@@ -103,16 +106,13 @@ $ yarn dev
 _Obs.: Before to continue, be sure to have the API running_
 
 ```bash
-# Starting from the project root folder, go to frontend web folder
-$ cd web
-
 # Install the dependencies
 $ yarn
 
-# Be sure the file 'src/services/api.ts' have the IP to your API
+# Be sure the file 'clients/web/src/services/api.ts' have the IP to your API
 
 # Start the client
-$ yarn start
+$ yarn web start
 ```
 
 ### Mobile
@@ -120,16 +120,13 @@ $ yarn start
 _Obs.: Before to continue, be sure to have the API running_
 
 ```bash
-# Starting from the project root folder, go to mobile folder
-$ cd mobile
-
 # Install the dependencies
 $ yarn
 
-# Be sure the file 'src/services/api.ts' have the IP to your API
+# Be sure the file 'clients/mobile/src/services/api.ts' have the IP to your API
 
 # Start the expo service and scan the QR code with Expo Client
-$ yarn start
+$ yarn mobile start
 ```
 
 ## 🤔 How to contribute
