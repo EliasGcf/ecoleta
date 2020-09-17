@@ -5,6 +5,11 @@
   "repository": "git@github.com:EliasGcf/ecoleta.git",
   "author": "Elias Gabriel <eliasgabrielcf@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "server": "yarn workspace @ecoleta/server",
+    "web": "yarn workspace @ecoleta/web",
+    "mobile": "yarn workspace @ecoleta/mobile"
+  },
   "workspaces": {
     "packages": [
       "clients/*",
