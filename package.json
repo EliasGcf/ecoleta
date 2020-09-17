@@ -1,0 +1,17 @@
+{
+  "name": "ecoleta",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:EliasGcf/ecoleta.git",
+  "author": "Elias Gabriel <eliasgabrielcf@gmail.com>",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "clients/*",
+      "server"
+    ]
+  },
+  "devDependencies": {
+    "typescript": "~3.7.2"
+  }
+}
